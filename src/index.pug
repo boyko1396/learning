@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+html(lang='ru')
+  include includes/head.pug
+
+  body
+
+    #root.site
+      .site__inner
+        include includes/header.pug
+
+        main(role="main").site__main
+          .intro
+            .container.intro__container
+              .intro__content
+                .u-suptitle.intro__suptitle Start Learning jul. 23
+                h1.u-title.intro__title Learning never stops, especially with MindPin
+                h2.u-subtitle.intro__subtitle GthtOur online academy is designed for strong individuals who are always looking to learn and grow.
+                .intro__appeal
+                  a(href="#").btn.btn--size-sm.btn--theme-black.intro__appeal-btn
+                    span.btn__inner
+                      span.btn__title Start Learning
+                  .intro__appeal-join
+                    .intro__appeal-join-list
+                      .intro__appeal-join-img
+                        img(src="images/join-avatar-3.png")
+                      .intro__appeal-join-img
+                        img(src="images/join-avatar-2.png")
+                      .intro__appeal-join-img
+                        img(src="images/join-avatar-1.png")
+                    .intro__appeal-join-text Join to community
+                .list-marker-circle.intro__benefits
+                  ul
+                    li Take Control of Your Future
+                    li limitless possibilities of growing
+              .intro__hero
+                picture.intro__hero-img
+                  source(srcset="images/intro-hero@2x.png" media="(min-resolution: 192dpi)")
+                  img(src="images/intro-hero.png" srcset="images/intro-hero.png 1x, images/intro-hero@2x.png 2x" alt="Learning never stops, especially with MindPin")
+          .section
+            .container.section__container
+              header.section__header
+                .u-suptitle.section__suptitle Get the best deal
+                h1.u-title.section__title Who, why<br>and&nbsp;for whom?
+                h2.u-subtitle.section__subtitle We will teach you: not to be afraid, raise your check, search for orders and find customers from scratch, make your favorite business profitable
+              .row.section__card-list
+                .row__col.row__col--6.section__card-list-col
+                  article.card-info.section__card-list-item
+                    .card-info__inner
+                      picture.card-info__picture
+                        img(src="images/card-info-1.png" alt="Heading random for paragraph").card-info__img
+                      .card-info__content
+                        h3.text-size-2.card-info__title Heading random for paragraph
+                        .content.card-info__text
+                          p Our online academy is for strong personalities who always strive to learn and grow. Whether you are a student, a working professional, or someone who is just interested in exploring the world, we have the resources and tools to continue learning and expand your knowledge.
+                .row__col.row__col--6.section__card-list-col
+                  article.card-info.section__card-list-item
+                    .card-info__inner
+                      picture.card-info__picture
+                        img(src="images/card-info-2.png" alt="Heading random for paragraph").card-info__img
+                      .card-info__content
+                        h3.text-size-2.card-info__title Heading random for paragraph
+                        .content.card-info__text
+                          p Our online academy is for strong personalities who always strive to learn and grow. Whether you are a student, a working professional, or someone who is just interested in exploring the world, we have the resources and tools to continue learning and expand your knowledge.
+                .row__col.row__col--12.section__card-list-col
+                  article.card-appeal.section__card-list-appeal
+                    .card-appeal__inner
+                      .card-appeal__content
+                        h3.card-appeal__title Heading random for&nbsp;paragraph
+                        .content.card-appeal__text
+                          p Our online academy is for strong personalities who always strive to learn and grow. Whether you are a student, a working professional, or someone who is just interested in exploring the world, we have the resources and tools to continue learning and expand your knowledge.
+                        footer.card-appeal__footer
+                          a(href="#").btn.btn--size-sm.btn--theme-accent.card-appeal__footer-btn
+                            span.btn__inner
+                              span.btn__title Start Learning
+                          .card-appeal__footer-start-date Start in 23 jul.
+                      .card-appeal__media
+                        picture.card-appeal__picture
+                          img(src="images/card-appeal-1.png" alt="Heading random for paragraph").card-appeal__img
+          .section.section--about
+            .container.section__container
+              header.section__header
+                .u-suptitle.section__suptitle We are?
+                h1.u-title.section__title Our mission is to provide high-quality
+                h2.u-subtitle.section__subtitle Accessible education to people around the world, and to empower individuals to reach their full potential.
+              .road-map.section__road-map
+                article.road-map__card
+                  .road-map__card-center
+                    .road-map__card-counter
+                  .row.road-map__card-row
+                    .row__col.road-map__card-col
+                      picture.road-map__card-picture
+                        img(src="images/road-map-1.png" alt="Heading random for paragraph")
+                    .row__col.road-map__card-col
+                      .road-map__card-content
+                        h3.road-map__card-title Heading random for paragraph
+                        .content.road-map__card-text
+                          p But we're more than just an academy. We understand that achieving success is not just about knowledge and skills, but also about developing a strong mindset and staying motivated. That's why we offer courses and resources that help you overcome self-doubt, fear of failure, and other psychological barriers to success.
+                article.road-map__card
+                  .road-map__card-center
+                    .road-map__card-counter
+                  .row.road-map__card-row
+                    .row__col.road-map__card-col
+                      picture.road-map__card-picture
+                        img(src="images/road-map-2.png" alt="Heading random for paragraph")
+                    .row__col.road-map__card-col
+                      .road-map__card-content
+                        h3.road-map__card-title Heading random for paragraph
+                        .content.road-map__card-text
+                          p But we're more than just an academy. We understand that achieving success is not just about knowledge and skills, but also about developing a strong mindset and staying motivated. That's why we offer courses and resources that help you overcome self-doubt, fear of failure, and other psychological barriers to success.
+                article.road-map__card
+                  .road-map__card-center
+                    .road-map__card-counter
+                  .row.road-map__card-row
+                    .row__col.road-map__card-col
+                      picture.road-map__card-picture
+                        img(src="images/road-map-3.png" alt="Heading random for paragraph")
+                    .row__col.road-map__card-col
+                      .road-map__card-content
+                        h3.road-map__card-title Heading random for paragraph
+                        .content.road-map__card-text
+                          p But we're more than just an academy. We understand that achieving success is not just about knowledge and skills, but also about developing a strong mindset and staying motivated. That's why we offer courses and resources that help you overcome self-doubt, fear of failure, and other psychological barriers to success.
+              a(href="#").btn.btn--size-md.btn--theme-black.section__btn-start-learning
+                span.btn__inner
+                  span.btn__title Start Learning
+              .section__benefits
+                .list-marker-circle
+                  ul
+                    li Learning never stops, especially with MindPin
+                    li limitless possibilities of growing
+                    li Take Control of Your Future
+              footer.section__social
+                .section__social-title
+                  span Our social media
+                .sc-block.section__social-list
+                  ul.sc-block__list
+                    li.sc-block__item
+                      a(href="#" target="_blank").link-line.sc-block__link
+                        svg.icon.link-line__icon
+                          use(xlink:href='images/sprite.svg#instagram')
+                        span.link-line__title @mindpin
+                    li.sc-block__item
+                      a(href="#" target="_blank").link-line.sc-block__link
+                        svg.icon.link-line__icon
+                          use(xlink:href='images/sprite.svg#facebook')
+                        span.link-line__title @mindpin
+                    li.sc-block__item
+                      a(href="#" target="_blank").link-line.sc-block__link
+                        svg.icon.link-line__icon
+                          use(xlink:href='images/sprite.svg#telegram')
+                        span.link-line__title @mindpin
+          .appeal-section
+            .container.appeal-section__container
+              .appeal-section__header
+                h1.u-title.appeal-section__title How we have already changed people's lives
+                h2.u-subtitle.appeal-section__subtitle And helped them earn money with their work without effort
+              .appeal-section__slider-control
+                .appeal-section__slider-control-counter
+                  .appeal-section__slider-control-counter-current 1
+                  .appeal-section__slider-control-counter-list /23
+              .appeal-section__block
+                .row.appeal-section__block-row
+                  .row__col.row__col--7.appeal-section__block-col-content
+                    .appeal-section__block-content
+                      h3.text-size-2.appeal-section__block-title Heading random for paragraph historty people random heading on text special in home
+                      .content.appeal-section__block-text
+                        p Our online academy is a community of like-minded people who share a passion for learning and personal growth. Join us today and become part of a community of strong personalities who always try to be themselves.
+                      .user-card.appeal-section__block-user-card
+                        picture.user-card__avatar
+                          img(src="images/user-card-avatar.jpg" alt="Michael Monsh")
+                        .user-card__content
+                          .user-card__name Michael Monsh
+                          .user-card__position CEO of Google
+                  .row__col.row__col--5.appeal-section__block-col-media
+                    .appeal-section__block-media
+                      picture.appeal-section__block-picture
+                        img(src="images/appeal-block-img.png" alt="Heading random for paragraph historty people random heading on text special in home")
+          .section.section--faq
+            .container.section__container
+              header.section__header
+                .u-suptitle.section__suptitle Get the best deal
+                h1.u-title.section__title Answers to questions
+                h2.u-subtitle.section__subtitle We will teach you: not to be afraid, raise your check, search for orders and find customers from scratch, make your favorite business profitable
+              .section__faq
+                div(itemscope itemtype='https://schema.org/FAQPage').section__faq-list
+                  ul.section__faq-ul
+                    li(itemprop='mainEntity' itemscope itemtype='https://schema.org/Question').faq-card.is-show.section__faq-item
+                      header.faq-card__header
+                        h3(itemprop='name').title-size-3.faq-card__title Will I have access to an instructor or tutor if I have questions or need help?
+                        button(type="button").js-faq-card-collapse.faq-card__btn
+                          svg.icon
+                            use(xlink:href='images/sprite.svg#arrow-type-1')
+                      div(itemprop='acceptedAnswer' itemscope itemtype='https://schema.org/Answer').faq-card__content
+                        div(itemprop='text').content.faq-card__text
+                          p Yes, all of our courses have different levels of support. Check  course description or syllabus for details on the level of support offered.
+                    li(itemprop='mainEntity' itemscope itemtype='https://schema.org/Question').faq-card.section__faq-item
+                      header.faq-card__header
+                        h3(itemprop='name').title-size-3.faq-card__title Will have random questions
+                        button(type="button").js-faq-card-collapse.faq-card__btn
+                          svg.icon
+                            use(xlink:href='images/sprite.svg#arrow-type-1')
+                      div(itemprop='acceptedAnswer' itemscope itemtype='https://schema.org/Answer').faq-card__content
+                        div(itemprop='text').content.faq-card__text
+                          p Yes, all of our courses have different levels of support. Check  course description or syllabus for details on the level of support offered.
+                    li(itemprop='mainEntity' itemscope itemtype='https://schema.org/Question').faq-card.section__faq-item
+                      header.faq-card__header
+                        h3(itemprop='name').title-size-3.faq-card__title Name quetions from Russia
+                        button(type="button").js-faq-card-collapse.faq-card__btn
+                          svg.icon
+                            use(xlink:href='images/sprite.svg#arrow-type-1')
+                      div(itemprop='acceptedAnswer' itemscope itemtype='https://schema.org/Answer').faq-card__content
+                        div(itemprop='text').content.faq-card__text
+                          p Yes, all of our courses have different levels of support. Check  course description or syllabus for details on the level of support offered.
+                    li(itemprop='mainEntity' itemscope itemtype='https://schema.org/Question').faq-card.section__faq-item
+                      header.faq-card__header
+                        h3(itemprop='name').title-size-3.faq-card__title Will have random questions
+                        button(type="button").js-faq-card-collapse.faq-card__btn
+                          svg.icon
+                            use(xlink:href='images/sprite.svg#arrow-type-1')
+                      div(itemprop='acceptedAnswer' itemscope itemtype='https://schema.org/Answer').faq-card__content
+                        div(itemprop='text').content.faq-card__text
+                          p Yes, all of our courses have different levels of support. Check  course description or syllabus for details on the level of support offered.
+                    li(itemprop='mainEntity' itemscope itemtype='https://schema.org/Question').faq-card.section__faq-item
+                      header.faq-card__header
+                        h3(itemprop='name').title-size-3.faq-card__title Name quetions from Russia
+                        button(type="button").js-faq-card-collapse.faq-card__btn
+                          svg.icon
+                            use(xlink:href='images/sprite.svg#arrow-type-1')
+                      div(itemprop='acceptedAnswer' itemscope itemtype='https://schema.org/Answer').faq-card__content
+                        div(itemprop='text').content.faq-card__text
+                          p Yes, all of our courses have different levels of support. Check  course description or syllabus for details on the level of support offered.
+                .section__faq-media
+                  picture.section__faq-picture
+                    img(src="images/faq-img.png" alt="Answers to questions")
+
+        include includes/footer.pug
+
+    include includes/foot.pug
+
+    script.
+      var collapseButtons = document.querySelectorAll('.js-faq-card-collapse');
+
+      collapseButtons.forEach(function(button) {
+        button.addEventListener('click', function() {
+          var faqCard = this.closest('.faq-card');
+          var isOpen = faqCard.classList.contains('is-show');
+
+          collapseButtons.forEach(function(otherButton) {
+            var otherFaqCard = otherButton.closest('.faq-card');
+            if (otherButton !== button && otherFaqCard.classList.contains('is-show')) {
+              otherFaqCard.classList.remove('is-show');
+            }
+          });
+
+          if (isOpen) {
+            faqCard.classList.remove('is-show');
+          } else {
+            faqCard.classList.add('is-show');
+          }
+        });
+      });

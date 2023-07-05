@@ -1,0 +1,30 @@
+// typography
+$ff-default: 'Inter', Arial, sans-serif;
+$ff-accent: 'Neue Machina', Arial, sans-serif;
+
+// pallets
+$color-black-1: #1F1E1E;
+$color-black-2: #333;
+$color-black-3: #000;
+$color-black-4: #32343E;
+$color-white-1: #fff;
+$color-white-2: #FDFDFD;
+$color-accent-1: #E8FF01;
+$color-gray-1: #F5F6F8;
+$color-gray-2: #D9D9D9;
+
+// media breakpoints
+$xl: 1440px;
+$xl-mf: $xl + 1;
+
+$lg: 1199px;
+$lg-mf: $lg + 1;
+
+$md: 991px;
+$md-mf: $md + 1;
+
+$sm: 767px;
+$sm-mf: $sm + 1;
+
+$xs: 576px;
+$xs-mf: $xs;

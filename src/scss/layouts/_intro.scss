@@ -1,0 +1,91 @@
+.intro {
+    padding: 36px 0 43px;
+    &__container {
+        display: flex;
+    }
+    &__content {
+        max-width: 50%;
+        padding-right: 50px;
+        flex: 0 0 50%;
+    }
+    &__suptitle {
+        margin: 0 0 33px;
+    }
+    &__title {
+        margin: 0 0 24px;
+    }
+    &__subtitle {
+        max-width: 430px;
+        margin: 0 0 40px;
+    }
+    &__appeal {
+        margin: 0 0 64px;
+        display: flex;
+        align-items: center;
+        &-btn {
+            margin-right: 24px;
+            flex-shrink: 0;
+        }
+        &-join {
+            display: flex;
+            align-items: center;
+            &-list {
+                margin-right: 8px;
+                display: flex;
+                align-items: center;
+                flex-direction: row-reverse;
+                flex-shrink: 0;
+            }
+            &-img {
+                @extend .img-cover;
+                background: $color-accent-1;
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                border: 2px solid #1F1E1E;
+                overflow: hidden;
+                &:not(:first-child) {
+                    margin-right: -8px;
+                }
+            }
+            &-text {
+                font-weight: 500;
+            }
+        }
+    }
+    &__benefits {
+    }
+    &__hero {
+        align-self: flex-end;
+        pointer-events: none;
+        position: relative;
+        z-index: 0;
+        &:before,
+        &:after {
+            background-position: 50%;
+            background-repeat: no-repeat;
+            background-size: contain;
+            content: '';
+            pointer-events: none;
+            position: absolute;
+        }
+        &:before {
+            background-image: url(../images/decor/1.svg);
+            width: 80px;
+            height: 80px;
+            top: 40px;
+            left: 40px;
+            z-index: -1;
+        }
+        &:after {
+            background-image: url(../images/decor/2.svg);
+            width: 152px;
+            height: 152px;
+            bottom: 80px;
+            right: 80px;
+            z-index: 1;
+        }
+        &-img {
+        }
+    }
+}
